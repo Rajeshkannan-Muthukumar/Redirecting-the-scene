@@ -67,12 +67,16 @@ public class hello : MonoBehaviour
 ```
 
 ## Output:
-## Scene 1:
-![output](o1.png)
+
+![o1 (2)](https://github.com/Rajeshkannan-Muthukumar/Redirecting-the-scene/assets/93901857/7ad72f22-748e-4ff8-9a6b-ee4aa1d83d4e)
+
 ## After the Ball Hit the cube:
-![output](o2.png)
+![o2](https://github.com/Rajeshkannan-Muthukumar/Redirecting-the-scene/assets/93901857/4736688d-d5d0-4f10-bc4b-0f5d775d7798)
+
 ## Redirected scene 2:
-![output](o3.png)
+
+![o3](https://github.com/Rajeshkannan-Muthukumar/Redirecting-the-scene/assets/93901857/e2e662dc-fbef-4a98-9e84-91b8b699f03e)
+
 ## Result:
 The above C# coding is successfully redirecting the scene in the unity engine.
 
