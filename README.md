@@ -40,9 +40,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class hello : MonoBehaviour
+public class cube : MonoBehaviour
 {
     Rigidbody rb;
+    public GameObject Wintext;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,13 +55,20 @@ public class hello : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("lev2");
+            SceneManager.LoadScene("Level2");
         }
+    }
+    public void onMouseDown()
+    {
+        Destroy(gameObject);
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "sphere") ;
+        if (collision.gameObject.tag == "CUBE")
+        {
             Destroy(collision.gameObject);
+            Wintext.SetActive(true);
+        }
     }
 }
 
